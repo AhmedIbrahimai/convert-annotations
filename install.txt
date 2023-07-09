@@ -1,0 +1,5 @@
+chdir C:\Users\amb\Downloads\open image
+!git clone https://github.com/EscVM/OIDv4_ToolKit
+chdir OIDv4_ToolKit
+pip install -r requirements.txt
+python main.py downloader --classes Balloon Airplane --type_csv train --limit 4
